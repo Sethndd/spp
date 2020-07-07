@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="300.0" prefWidth="300.0" spacing="8" style="-fx-background-color: black" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+    <ImageView fx:id="imageView" />
+    <Label />
+    <TextField fx:id="username" maxWidth="200" promptText="Usuario" style="-fx-background-color: black;-fx-text-fill: white; -fx-border-color: white ; -fx-border-width: 1px ;" />
+    <PasswordField fx:id="password" onKeyPressed="#loginByIntro" maxWidth="200" promptText="Contraseña" style="-fx-background-color: black;-fx-text-fill: white;-fx-border-color: #ffffff ; -fx-border-width: 1px ;" />
+    <Label fx:id="alertLabel" style="-fx-text-fill: red;" />
+    <Button fx:id="button" onKeyPressed="#loginByIntro" onMouseClicked="#loginByClick" style="-fx-background-color: #2196F3;-fx-text-fill: white;" text="Iniciar sesión" />
+</VBox>

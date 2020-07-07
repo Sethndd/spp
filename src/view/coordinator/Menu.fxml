@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="600.0" spacing="8" style="-fx-background-color: black" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.coordinator.Menu">
+    <Button fx:id="btnProjects" onMouseClicked="#openProjectsByClick" onKeyPressed="#openProjectsByIntro" style="-fx-background-color: #2196F3;-fx-text-fill: white;" text="Proyectos y organizaciones" />
+    <Label />
+    <Button fx:id="btnIntern" onMouseClicked="#openInternsByClick" onKeyPressed="#openInternsByIntro" style="-fx-background-color: #2196F3;-fx-text-fill: white;" text="Practicantes" />
+    <Label />
+    <Button fx:id="btnReport" onMouseClicked="#openReportByClick" onKeyPressed="#openReportByIntro" style="-fx-background-color: #2196F3;-fx-text-fill: white;" text="Reportes de indicadores" />
+    <Label />
+</VBox>

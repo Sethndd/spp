@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="600.0" spacing="8" style="-fx-background-color: black" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.coordinator.Menu">
+    <!--TODO Reports menu -->
+    <Button fx:id="btnProjects" onAction="#openProjects" style="-fx-background-color: #2196F3;-fx-text-fill: white;" text="TODO" />
+    <Label />
+    <Label />
+    <Label />
+    <Button fx:id="btnBackward" onAction="#backward" style="-fx-background-color: #2196F3;-fx-text-fill: white;" text="Volver" />
+</VBox>
